@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02PG01.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#81F822" Padding="24" CornerRadius="0">
+                <Label Text="Menu" HorizontalTextAlignment="Center" TextColor="black" FontSize="40"/>
+            </Frame>
+
+            <Button BackgroundColor="#5DADE2" x:Name="btnApp1" Text="Suma de Numeros" Clicked="btnApp1_Clicked"></Button>
+
+            <Button BackgroundColor="#52BE80" x:Name="btnApp2" Text="Ingreso de Personas" Clicked="btnApp2_Clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

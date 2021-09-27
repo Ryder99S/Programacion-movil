@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02PG01.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#22F87F" Padding="24" CornerRadius="0">
+                <Label Text="Resultados" HorizontalTextAlignment="Center" TextColor="black" FontSize="40"/>
+            </Frame>
+            
+            <Label Text="" x:Name="lbresultado"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" BackgroundColor="#22F87F" FontSize="40"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
